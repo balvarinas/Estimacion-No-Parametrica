@@ -1,0 +1,4 @@
+Este es un pequeño análisis basado en datos sobre el crecimiento de miles de niños en Estados Unidos durante 1977, utilizando el archivo individuals.csv. Enfocado específicamente en las niñas para estudiar la relación entre la longitud del fémur y la circunferencia de la cadera.
+Primero, visualicé esta relación con un gráfico de dispersión. Luego, dividí a las niñas en cuatro grupos etarios y estimé la mediana de la circunferencia de la cadera para cada grupo. Para validar mis estimaciones, calculé intervalos de confianza Bootstrap, lo que me dio una mayor seguridad en mis hallazgos. 
+Finalmente, exploré y apliqué diversas técnicas de regresión no paramétrica para encontrar la mejor curva que predijera la longitud del fémur a partir de la circunferencia de la cadera. 
+Esto incluyó comparar el uso de ksmooth con mi propia implementación del método de Nadaraya-Watson, lo que me permitió determinar el ajuste más adecuado y comprender mejor los patrones de crecimiento
